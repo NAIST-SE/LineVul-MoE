@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+artifacts/
+*.csv.gz
+*.npy
+*.pt
+*.bin
+*.safetensors
+
+/retrained/

@@ -1,0 +1,32 @@
+{
+  "adapter_size": 64,
+  "block_size": 512,
+  "epochs": 10,
+  "eval_batch_size": 128,
+  "gradient_accumulation_steps": 1,
+  "learning_rate": 2e-05,
+  "positive_fractions": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "precision": "bf16",
+  "slurm_partition": "isgpu4h200_short",
+  "slurm_time_limit": "04:00:00",
+  "project_split_seed": 20260729,
+  "router_loss_weight": 0.2,
+  "seeds": [
+    123456,
+    42,
+    2026,
+    31415,
+    27182
+  ],
+  "top_p_grid": [
+    0.6,
+    0.8,
+    0.9
+  ],
+  "train_batch_size": 64,
+  "warmup_ratio": 0.2
+}

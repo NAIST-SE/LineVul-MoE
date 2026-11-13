@@ -1,0 +1,11 @@
+torch==2.1.2
+transformers==4.26.0
+tokenizers==0.13.2
+huggingface-hub==0.24.5
+safetensors==0.5.3
+numpy==1.24.2
+pandas==1.5.2
+scikit-learn==1.2.1
+scipy==1.14.0
+
+pyarrow==17.0.0
